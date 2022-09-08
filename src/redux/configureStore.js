@@ -1,11 +1,11 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import assetReducer from './Home';
-// import detailReducer from './home/Detail';
+import detailReducer from './Detail';
 
 const reducer = combineReducers({
   assetReducer,
-  // detailReducer,
+  detailReducer,
 });
 
 const store = createStore(

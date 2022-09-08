@@ -5,7 +5,7 @@ import Asset from './Asset';
 
 const Home = () => {
   const dispatch = useDispatch();
-  const assetList = useSelector((store) => store.assetReducer);
+  const assetList = useSelector((state) => state.assetReducer);
   useEffect(() => {
     dispatch(assetItem());
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -32,7 +32,7 @@ const Home = () => {
         </div>
         <div className="formDiv">
           <form className="searchForm" onSubmit={searchHandler}>
-            <input type="text" name="coinSearch" placeholder="Enter Crypto name ..." required />
+            <input type="text" name="coinSearch" placeholder="Search" required />
             <input type="submit" value="Search" />
           </form>
         </div>

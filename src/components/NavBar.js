@@ -1,11 +1,12 @@
 import { NavLink } from 'react-router-dom';
-import item from './assets/item.jpeg';
+import item from './assets/item.png';
 import itemi from './assets/itemi.png';
+import './NavBar.css';
 
 const NavBar = () => (
   <nav>
     <div>
-      <h1> Weather Forecast </h1>
+      <h1> ERYPTO </h1>
       <NavLink to="/"><h2>HOME</h2></NavLink>
     </div>
     <div>
