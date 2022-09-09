@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`To test for the home page to match the dom snapshot 1`] = `undefined`;
