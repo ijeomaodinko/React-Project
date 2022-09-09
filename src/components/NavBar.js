@@ -7,7 +7,9 @@ const NavBar = () => (
   <nav>
     <div>
       <h1> ERYPTO </h1>
-      <NavLink to="/"><h2>HOME</h2></NavLink>
+    </div>
+    <div>
+      <NavLink to="/"><h5>HOME</h5></NavLink>
     </div>
     <div>
       <img src={item} alt="setting" />

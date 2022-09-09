@@ -10,9 +10,9 @@ const Asset = (props) => {
   } = props;
 
   return (
-    <NavLink className="card" to={`/detail/${id}`}>
+    <NavLink className="asset" to={`/detail/${id}`}>
       <h2>{symbol}</h2>
-      <small>{id}</small>
+      <h5>{id}</h5>
       <p>
         $
         {price}

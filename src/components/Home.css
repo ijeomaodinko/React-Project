@@ -1,0 +1,44 @@
+.sectionDiv {
+width: 100vw;
+background-color: rgb(33, 114, 189);
+}
+
+.optionDiv {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.desc,
+.searchForm,
+.search{
+    background-color: rgb(33, 114, 189) ;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.assetList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    margin: 0;
+    padding: 0; 
+}
+
+.asset {
+ background-color: rgb(33, 114, 189);
+  color: white;
+  margin: 0;
+  text-decoration: none;
+}
+
+.asset:nth-child(4n),
+.asset:nth-child(4n+1) {
+  background-color: rgb(107, 158, 247);
+}
+
+h3, 
+h2,
+p {
+margin-bottom: 1rem;
+}

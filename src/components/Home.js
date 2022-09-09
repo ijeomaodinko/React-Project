@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { assetItem, assetFilter } from '../redux/Home';
 import Asset from './Asset';
+import './Home.css';
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -21,7 +22,7 @@ const Home = () => {
   };
 
   return (
-    <section>
+    <section className="sectionDiv">
       <div className="optionDiv">
         <div className="option">
           <select className="desc" onChange={changeHandler}>
@@ -32,8 +33,8 @@ const Home = () => {
         </div>
         <div className="formDiv">
           <form className="searchForm" onSubmit={searchHandler}>
-            <input type="text" name="coinSearch" placeholder="Search" required />
-            <input type="submit" value="Search" />
+            <input type="text" className="search" name="coinSearch" placeholder="Enter the coin..." required />
+            <input type="submit" className="search" value="Search" />
           </form>
         </div>
       </div>
@@ -43,7 +44,7 @@ const Home = () => {
             key={coin.id}
             id={coin.id}
             symbol={coin.symbol}
-            price={coin.priceUsd.substring(0, 6)}
+            price={coin.priceUsd.substring(0, 12)}
             change={coin.changePercent24Hr}
           />
         ))}
