@@ -7,11 +7,16 @@ section {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 0.6rem
+    border-radius: 0.6rem;
+    padding-bottom: 1rem;
 }
 
 span{
 margin-left: 1rem;
+}
+
+.home {
+    width: 10%;
 }
 
 
