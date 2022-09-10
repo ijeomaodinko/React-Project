@@ -11,7 +11,6 @@ const Detail = () => {
   const coin = useSelector((state) => state.detailReducer);
   useEffect(() => {
     dispatch(assetSingle(id));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

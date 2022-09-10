@@ -9,7 +9,6 @@ const Home = () => {
   const assetList = useSelector((state) => state.assetReducer);
   useEffect(() => {
     dispatch(assetItem());
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const changeHandler = (e) => {
