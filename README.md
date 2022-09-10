@@ -14,7 +14,8 @@ This porject gives information about the crypto currencies. The information is f
 
 ## Live Demo (if available)
 
-[Live Demo Link](eloquent-zabaione-1a4d96)
+[Live Demo Link](https://tranquil-lamington-bcca50.netlify.app/)
+
 
 
 # Getting Started
