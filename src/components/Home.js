@@ -35,16 +35,16 @@ function Home() {
             <option value="vol"> High Price </option>
           </select>
         </div>
-      </div>
-      <div className="formDiv">
-        <input
-          type="text"
-          className="search"
-          name="coinSearch"
-          placeholder="Enter the coin..."
-          required
-          onChange={changeHandler}
-        />
+        <div className="formDiv">
+          <input
+            type="text"
+            className="search"
+            name="coinSearch"
+            placeholder="Enter the coin..."
+            required
+            onChange={changeHandler}
+          />
+        </div>
       </div>
       <ul className="assetList">
         {filterCoin.map((coin) => (
