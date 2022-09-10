@@ -14,12 +14,10 @@ This porject gives information about the crypto currencies. The information is f
 
 ## Live Demo (if available)
 
-<<<<<<< HEAD
-[Live Demo Link]()
-=======
-[Live Demo Link](https://tranquil-lamington-bcca50.netlify.app/)
 
->>>>>>> 1d16a7b4d92c3bb3378db42ec2294777daf30e7e
+
+[Live Demo Link](https://timely-medovik-20a0c5.netlify.app)
+
 
 
 # Getting Started
