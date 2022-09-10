@@ -1,7 +1,7 @@
 const apiUrl = 'https://api.coincap.io/v2/assets/';
 
 const FETCH_EACH = 'FETCH_EACH';
-const initialState = [{ id: 'bitcoin', symbol: 'BTC' }];
+// const initialState = [{ id: 'bitcoin', symbol: 'BTC' }];
 
 const fetchAssetById = async (id) => {
   const response = await fetch(`${apiUrl}${id}`, { method: 'GET' });
@@ -17,7 +17,7 @@ export const assetSingle = (id) => async (dispatch) => {
   });
 };
 
-const detailReducer = (state = initialState, action) => {
+const detailReducer = (state = [{ id: 'bitcoin', symbol: 'BTC' }], action) => {
   switch (action.type) {
     case FETCH_EACH:
       return action.payload;
