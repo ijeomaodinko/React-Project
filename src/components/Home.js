@@ -15,11 +15,6 @@ const Home = () => {
     dispatch(assetFilter(e.target.value));
   };
 
-  const searchHandler = (e) => {
-    e.preventDefault();
-    window.location.href = `/detail/${e.target.coinSearch.value}`;
-  };
-
   return (
     <section className="sectionDiv">
       <div className="optionDiv">
@@ -29,12 +24,6 @@ const Home = () => {
             <option value="name"> Name </option>
             <option value="vol"> High Price </option>
           </select>
-        </div>
-        <div className="formDiv">
-          <form className="searchForm" onSubmit={searchHandler}>
-            <input type="text" className="search" name="coinSearch" placeholder="Enter the coin..." required />
-            <input type="submit" className="search" value="Search" />
-          </form>
         </div>
       </div>
       <ul className="assetList">
