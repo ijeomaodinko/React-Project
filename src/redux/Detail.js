@@ -1,7 +1,6 @@
 const apiUrl = 'https://api.coincap.io/v2/assets/';
 
 const FETCH_EACH = 'FETCH_EACH';
-// const initialState = [{ id: 'bitcoin', symbol: 'BTC' }];
 
 const fetchAssetById = async (id) => {
   const response = await fetch(`${apiUrl}${id}`, { method: 'GET' });
