@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(33, 114, 189);
+  color: white;
+}
+
+section {
+  background-color: rgb(107, 158, 247);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.6rem;
+  padding-bottom: 1rem;
+}
+
+span {
+  margin-left: 1rem;
+}
+
+.home {
+  width: 10%;
+}
