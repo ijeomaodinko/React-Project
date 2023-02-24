@@ -12,8 +12,8 @@ const NavBar = () => (
       <NavLink to="/"><h5>HOME</h5></NavLink>
     </div>
     <div>
-      <img src={item} alt="setting" />
-      <img src={itemi} alt="speaker" />
+      <img src={item} className="img" alt="setting" />
+      <img src={itemi} className="img" alt="speaker" />
     </div>
   </nav>
 );
