@@ -1,21 +1,30 @@
 .sectionDiv {
-width: 100vw;
-background-color: rgb(33, 114, 189);
+width: 80%;
+background-color: #1f255e;
+border-bottom: 1px solid #2f73fe;
+border-left: 1px solid #e2eaf3;
+border-right: 1px solid #2f73fe;
+border-top: 1px solid #e2eaf3;
 }
 
 .optionDiv {
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+max-height: 4rem;
 }
 .desc,
 .searchForm,
 .search{
-    background-color: rgb(33, 114, 189) ;
+    background-color: #e2eaf3;
     border: none;
-    color: white;
+    color: #494f88;
     font-size: 16px;
-}
+    height: 1.9rem;
+    border-radius: 19px;
+    padding-left: 9px;
+    margin-bottom: 12px;
+  }
 
 .assetList {
     display: grid;
@@ -23,22 +32,24 @@ justify-content: space-between;
     text-align: center;
     margin: 0;
     padding: 0; 
+    border-top: 1px solid #2f73fe;
 }
 
 .asset {
- background-color: rgb(33, 114, 189);
-  color: white;
+ background-color:#1f255e;
+  color: #e2eaf3;
   margin: 0;
   text-decoration: none;
 }
 
 .asset:nth-child(4n),
 .asset:nth-child(4n+1) {
-  background-color: rgb(107, 158, 247);
+  background-color: #494f88;
 }
 
 h3, 
 h2,
 p {
 margin-bottom: 1rem;
+color: #e2eaf3;
 }

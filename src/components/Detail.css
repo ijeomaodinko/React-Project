@@ -1,14 +1,19 @@
 body{
-    background-color: rgb(33, 114, 189);
-    color: white;
+    background-color: #1f255e;
+    color: #e2eaf3;
 }
 section {
-    background-color: rgb(107, 158, 247);
-    width: 90%;
+    background-color:#494f88;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 0.6rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
+    color: #e2eaf3;
+    border-top: 1px solid #e2eaf3;
+    border-left: 1px solid #e2eaf3;
+    border-bottom: 1px solid #2f73fe;
+    border-right: 1px solid #2f73fe;
 }
 
 span{

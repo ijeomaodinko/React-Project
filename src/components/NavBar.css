@@ -1,16 +1,20 @@
 nav {
 display: flex;
 flex-direction: row;
-background-color: rgb(33, 114, 189) ;
+background-color: #1f255e ;
 height: 4rem;
 justify-content: space-between;
-color: white;
-width:100vw;
+color: #efeaf3;
+width:96%;
 position: relative;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+padding-left: 1.9rem;
 }
 
-h5 {
-color: white;
+h1, h5 {
+color: #e2eaf3;
 text-decoration: none;
 list-style: none;
 }
