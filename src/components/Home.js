@@ -11,7 +11,7 @@ function Home() {
   const [searchCoin, setSearchCoin] = useState('');
   useEffect(() => {
     dispatch(assetItem());
-  }, [searchCoin]);
+  }, [searchCoin]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const filterCoin = assetList.filter((coins) => (
     coins.name.toLowerCase().includes(searchCoin.toLowerCase())));
